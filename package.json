@@ -1,7 +1,7 @@
 {
-  "name": "react-npm-module-boilerplate",
+  "name": "react-daterange-bootstrap",
   "version": "1.0.1-beta.2",
-  "description": "boilerplate",
+  "description": "React daterange bootstrap",
   "main": "build/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -9,11 +9,12 @@
   },
   "keywords": [
     "react",
-    "boilerplate",
-    "npm",
-    "module"
+    "daterange",
+    "picker",
+    "daterangepicker",
+    "bootstrap"
   ],
-  "author": "Some lucky someone",
+  "author": "Tom Van den Broeck",
   "license": "ISC",
   "peerDependencies": {
     "react": "^16.13.1"
