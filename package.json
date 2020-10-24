@@ -1,37 +1,35 @@
 {
   "name": "react-daterange-bootstrap",
-  "version": "1.0.1-beta.2",
+  "version": "1.0.0",
   "description": "React daterange bootstrap",
   "main": "build/index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch"
+    "build": "rm -rf ./build && tsc",
+    "prepare": "npm build"
   },
   "keywords": [
     "react",
-    "daterange",
-    "picker",
+    "datepicker",
     "daterangepicker",
-    "bootstrap"
+    "bootstrap",
+    "typescript"
   ],
   "author": "Tom Van den Broeck",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1"
   },
   "dependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.2",
-    "html-loader": "^1.1.0",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.1.4",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.12.0",
+    "eslint-plugin-react": "^7.21.5",
+    "typescript": "^4.0.3"
   }
 }
